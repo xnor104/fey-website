@@ -1,0 +1,37 @@
+html(lang=en) {
+	head {
+		meta(charset = UTF-8)
+		title = 'Fey | Web Design'
+		meta(name = viewport content='width=device-width, initial-scale=1.0')
+		link(rel = stylesheet href = fey.css)
+	}
+	
+	body {
+		header {
+		    div(class=title) {
+			    h1 = 'Fey'
+			    p(role = doc-subtitle) = 'Web Design'
+			}
+
+			ul(class = social) {
+				li { a(href = https://github.com/xnor104) {
+					img(src = feather/github.svg alt = Github)
+				}}
+				li { a(href = mailto:fey@pinedip.de) {
+					img(src = feather/mail.svg alt = Email)
+				}}
+			}
+
+			nav { ul {
+				li { a(href = #skills) = Skills }
+				li { a(href = #projects) = Projects }
+				li { a(href = #contact) = Contact }
+			}}
+		}
+		main {
+			article(id = skills)
+			article(id = projects)
+			article(id = contact)
+		}
+	}
+}

@@ -1,0 +1,6 @@
+[submodule "vendor/livereload"]
+	path = vendor/livereload
+	url = https://github.com/livereload/livereload-js
+[submodule "vendor/feather"]
+	path = vendor/feather
+	url = https://github.com/feathericons/feather
