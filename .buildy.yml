@@ -1,0 +1,21 @@
+setup:
+  build:
+    - make all && cd public && python -m http.server 9999
+
+static:
+  watch:
+    - static/
+  build:
+    - make static
+
+css:
+  watch:
+    - sass/fey.scss
+  build:
+    - make css
+
+html:
+  watch:
+    - index.xmq
+  build:
+    - make html
