@@ -3,7 +3,7 @@
 # Requirements
 - [xmq](https://github.com/weetmuts/xmq)
 - [buildy](https://github.com/stovoy/buildy)
-- [dart-sass](https://sass-lang.com/dart-sass)
+- [Dart Sass](https://sass-lang.com/dart-sass)
 - [make](https://www.gnu.org/software/make/)
 - [Python 3](https://www.python.org/)
 - [rsync](https://rsync.samba.org/)
